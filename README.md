@@ -239,14 +239,6 @@ private function atomicUpdate($file, $data) {
 
 ---
 
-## 🔗 **Live Demo & Source Code**
-
-🌐 **[Live Demo](https://your-domain.com/php-task-scheduler)** - Experience the full functionality
-📁 **[GitHub Repository](https://github.com/Manish-1010-ark/php-task-scheduler)** - Review the complete codebase
-📋 **[Technical Documentation](https://github.com/Manish-1010-ark/php-task-scheduler/wiki)** - Detailed implementation guide
-
----
-
 ## 🤝 **Ready for Your Next Challenge**
 
 This project represents my commitment to **building production-ready solutions** that solve real business problems. I'm excited to bring these skills to your team and tackle your most challenging development projects.
