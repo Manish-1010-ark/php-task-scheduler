@@ -1,0 +1,17 @@
+[
+    {
+        "id":"684fea0a8300c",
+        "name":"Cleaning",
+        "completed":false
+    },
+    {
+        "id":"684fea2580202",
+        "name":"Groceries shopping",
+        "completed":true
+    },
+    {
+        "id":"684fea3549cc3",
+        "name":"Pick up parcel",
+        "completed":false
+    }
+]
