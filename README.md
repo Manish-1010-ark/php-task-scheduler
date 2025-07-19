@@ -113,12 +113,6 @@ This PHP Task Scheduler demonstrates **modern PHP development practices** while 
   *Detailed execution logs showing successful task delivery*
 </details>
 
-<details>
-  <summary>📊 Admin Dashboard (Optional)</summary>
-  
-  *Coming Soon: Web-based admin panel for task management*
-</details>
-
 ---
 
 ## 🚀 Getting Started
