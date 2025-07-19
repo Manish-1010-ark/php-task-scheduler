@@ -147,7 +147,7 @@ function subscribeEmail(string $email): bool {
     file_put_contents($pendingFile, json_encode($pending));
 
     // Create verification link - adjust URL as needed for your setup
-    $base_url = "http://localhost:8000/src";
+    $base_url = "http://localhost:8000";
     $verification_link = $base_url . "/verify.php?email=" . urlencode($email) . "&code=" . urlencode($code);
 
     $subject = "Verify subscription to Task Planner";
@@ -293,7 +293,7 @@ function sendTaskEmail(string $email, array $pending_tasks): bool {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
     $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
     $path = dirname($_SERVER['PHP_SELF'] ?? '');
-    $base_url = "http://localhost:8000/src";
+    $base_url = "http://localhost:8000";
 
     $unsubscribe_link = $base_url . "/unsubscribe.php?email=" . urlencode($email);
 
