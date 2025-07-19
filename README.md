@@ -93,24 +93,38 @@ This PHP Task Scheduler demonstrates **modern PHP development practices** while 
 ## 📸 Screenshots
 
 <details>
-  <summary>📝 Subscription Interface</summary>
+  <summary>📝 Subscription & Task Interface</summary>
   
-  ![Subscription Form](screenshots/subscription-form.png)
-  *Clean, intuitive subscription form with real-time validation*
+  ![Task Scheduler UI](screenshots/index.png)  
+  *Add new tasks, view pending tasks, and subscribe for reminders*
 </details>
 
 <details>
-  <summary>📧 Email Verification Flow</summary>
+  <summary>📧 Verification Email</summary>
   
-  ![Verification Email](screenshots/verification-email.png)
-  *Professional verification email with secure unique links*
+  ![Verification Email](screenshots/verify-email.png)  
+  *User receives a secure link to verify their subscription*
 </details>
 
 <details>
-  <summary>⚡ Cron Task Execution</summary>
+  <summary>✅ Subscription Verified</summary>
   
-  ![Cron Delivery Log](screenshots/cron-log.png)
-  *Detailed execution logs showing successful task delivery*
+  ![Verification Success](screenshots/verification-success.png)  
+  *Clear confirmation when the email is verified successfully*
+</details>
+
+<details>
+  <summary>📤 Task Reminder Email</summary>
+  
+  ![Task Reminder](screenshots/task-reminder.png)  
+  *Automated email with a list of pending tasks and an unsubscribe link*
+</details>
+
+<details>
+  <summary>🚫 Unsubscribe Page</summary>
+  
+  ![Unsubscribe](screenshots/unsubscribe.png)  
+  *Users can easily unsubscribe from reminders at any time*
 </details>
 
 ---
